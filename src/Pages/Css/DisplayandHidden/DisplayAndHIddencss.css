@@ -1,0 +1,24 @@
+
+.all{
+    margin: 10px;
+}
+
+.displayNone{
+width: 500px;
+height: 200px;
+background-color: skyblue;
+/* display:none; */
+visibility: hidden;
+
+}
+
+.hidden{
+    width: 500px;
+    height: 200px;
+    background-color: lightpink;
+    /* display: block; */
+}
+button:hover+.displayNone{
+    /* display: block; */
+    visibility: visible;
+}
